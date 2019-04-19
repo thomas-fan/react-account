@@ -46,7 +46,9 @@ class App extends Component {
                         Learn React
                     </a>
                 </header>
-                <PriceList items={items}>
+                <PriceList items={items} onModifyItem={(item) => {
+                    console.log(item)}} onDeleteItem={(item) => {
+                    console.log(item)}}>
 
                 </PriceList>
             </div>
