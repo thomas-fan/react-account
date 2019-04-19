@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
 import './App.css';
 import PriceList from './components/PriceList'
+import TotalPrice from './components/TotalPrice'
 import ViewTab from './components/ViewTab'
 
 const items = [
@@ -39,6 +39,7 @@ class App extends Component {
                     console.log(view)}}>
 
                 </ViewTab>
+                <TotalPrice income={100} outcome={200}/>
             </div>
         );
     }
