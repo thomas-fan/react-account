@@ -49,9 +49,10 @@ class App extends Component {
                     </a>
                 </header>
                 <PriceList items={items} onModifyItem={(item) => {
-                    console.log(item)}} onDeleteItem={(item) => {
-                    console.log(item)}}>
-
+                    console.log(item)
+                }} onDeleteItem={(item) => {
+                    console.log(item)
+                }}>
                 </PriceList>
             </div>
         );
